@@ -1,0 +1,2 @@
+trial_id,date,test_type,pzt_configuration,step_type,load_resistance_ohm,capacitance_f,initial_voltage_v,final_voltage_v,peak_voltage_v,pulse_duration_s,sampling_rate_hz,estimated_energy_j,measurement_status,notes
+TEMPLATE,,,,,,,,,,,,,placeholder,"Replace this row with real measured trials. Do not use placeholder rows as results."

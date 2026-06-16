@@ -1,0 +1,32 @@
+EcoStep analysis summary
+========================
+
+Evidence level:
+- Physical prototype documented with photos.
+- 16 PZT elements in a 4 x 4 array are documented.
+- Photo-informed validation estimates are included for portfolio completeness.
+- Real repeatable voltage-time measurements are still needed for final claims.
+
+Preliminary estimate:
+- 0.4 J, labeled as a low-confidence remembered estimate.
+
+Measured data rows:
+- Real measured rows detected: 0
+- Photo-informed simulated estimate rows detected: 17
+- Current CSV files are templates/placeholders, not experimental results.
+
+Photo-informed estimate coverage:
+- capacitor_charging: 3 rows
+- load_resistor_test: 5 rows
+- open_circuit_voltage: 4 rows
+- rectified_voltage: 3 rows
+- single_vs_array: 2 rows
+
+Accepted future calculation methods:
+- Resistor load: E = sum((V(t)^2 / R) * dt)
+- Rough peak estimate: E = (V_peak^2 / R) * pulse_duration
+- Capacitor charging: E = 0.5 * C * (V_final^2 - V_initial^2)
+
+Honesty rule:
+- Do not claim the LED/display/battery module is powered by the PZT array unless
+  the battery path is isolated and the measurement proves it.

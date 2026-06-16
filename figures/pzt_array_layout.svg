@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#ffffff"/>
+  <text x="46" y="54" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111111">EcoStep 4 x 4 PZT array layout</text>
+  <text x="46" y="86" font-family="Arial, sans-serif" font-size="15" fill="#333333">Conceptual layout of sixteen PZT elements inside the layered compression tile.</text>
+
+  <rect x="58" y="126" width="480" height="315" rx="6" fill="#fafafa" stroke="#111111" stroke-width="2"/>
+  <rect x="88" y="154" width="420" height="250" rx="4" fill="#ffffff" stroke="#777777" stroke-width="1.5"/>
+  <text x="197" y="430" font-family="Arial, sans-serif" font-size="14" fill="#333333">Bottom/internal layer with PZT elements</text>
+
+  <g stroke="#d0d0d0" stroke-width="1">
+    <line x1="130" y1="154" x2="466" y2="404"/>
+    <line x1="214" y1="154" x2="508" y2="372"/>
+    <line x1="298" y1="154" x2="508" y2="310"/>
+    <line x1="382" y1="154" x2="508" y2="248"/>
+    <line x1="466" y1="154" x2="508" y2="186"/>
+    <line x1="88" y1="186" x2="382" y2="404"/>
+    <line x1="88" y1="248" x2="298" y2="404"/>
+    <line x1="88" y1="310" x2="214" y2="404"/>
+    <line x1="88" y1="372" x2="130" y2="404"/>
+  </g>
+
+  <g fill="#ffffff" stroke="#111111" stroke-width="2.5">
+    <circle cx="150" cy="190" r="26"/>
+    <circle cx="250" cy="190" r="26"/>
+    <circle cx="350" cy="190" r="26"/>
+    <circle cx="450" cy="190" r="26"/>
+    <circle cx="150" cy="250" r="26"/>
+    <circle cx="250" cy="250" r="26"/>
+    <circle cx="350" cy="250" r="26"/>
+    <circle cx="450" cy="250" r="26"/>
+    <circle cx="150" cy="310" r="26"/>
+    <circle cx="250" cy="310" r="26"/>
+    <circle cx="350" cy="310" r="26"/>
+    <circle cx="450" cy="310" r="26"/>
+    <circle cx="150" cy="370" r="26"/>
+    <circle cx="250" cy="370" r="26"/>
+    <circle cx="350" cy="370" r="26"/>
+    <circle cx="450" cy="370" r="26"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="middle">
+    <text x="150" y="194">PZT</text><text x="250" y="194">PZT</text><text x="350" y="194">PZT</text><text x="450" y="194">PZT</text>
+    <text x="150" y="254">PZT</text><text x="250" y="254">PZT</text><text x="350" y="254">PZT</text><text x="450" y="254">PZT</text>
+    <text x="150" y="314">PZT</text><text x="250" y="314">PZT</text><text x="350" y="314">PZT</text><text x="450" y="314">PZT</text>
+    <text x="150" y="374">PZT</text><text x="250" y="374">PZT</text><text x="350" y="374">PZT</text><text x="450" y="374">PZT</text>
+  </g>
+
+  <g stroke="#111111" stroke-width="2" fill="none">
+    <line x1="590" y1="142" x2="590" y2="232"/>
+    <line x1="620" y1="142" x2="620" y2="232"/>
+    <line x1="590" y1="142" x2="620" y2="142"/>
+    <line x1="590" y1="232" x2="620" y2="232"/>
+    <line x1="605" y1="112" x2="605" y2="142"/>
+    <line x1="605" y1="232" x2="605" y2="262"/>
+  </g>
+  <polygon points="605,262 596,246 614,246" fill="#111111"/>
+  <text x="652" y="169" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111111">Compression</text>
+  <text x="652" y="191" font-family="Arial, sans-serif" font-size="14" fill="#333333">from footstep</text>
+  <text x="652" y="219" font-family="Arial, sans-serif" font-size="14" fill="#333333">top layer moves down</text>
+
+  <rect x="585" y="300" width="250" height="98" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+  <text x="710" y="330" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111111">Wiring concept</text>
+  <text x="710" y="354" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">Series / parallel / grouped</text>
+  <text x="710" y="377" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">configuration still to verify</text>
+
+  <text x="46" y="480" font-family="Arial, sans-serif" font-size="14" fill="#444444">Diagram is conceptual; exact final PZT wiring should be mapped from the physical prototype.</text>
+</svg>

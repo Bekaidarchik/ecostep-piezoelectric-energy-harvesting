@@ -1,0 +1,2 @@
+source,estimate_type,energy_j,confidence,measurement_status,notes
+memory,preliminary remembered estimate,0.4,low,not_measured,"Remembered from the prototype stage; not a saved lab measurement or final experimental result."
