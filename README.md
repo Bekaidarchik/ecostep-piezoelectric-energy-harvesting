@@ -6,6 +6,12 @@ EcoStep is a real high-school engineering prototype that uses a 4 x 4 array of 1
 
 **At a glance:** physical prototype, 16 PZT elements, 4 x 4 array, wooden compression tile, spring/bolt return mechanism, demonstration electronics module, validation estimate package, Arduino logger, and Python energy-estimation workflow.
 
+## Portfolio Summary
+
+- Built a documented piezoelectric footstep energy-harvesting tile prototype with a 16-element PZT array and layered compression structure.
+- Used Arduino-ready logging, Python analysis, CSV data templates, SVG diagrams, and hardware documentation to connect the physical prototype to a repeatable engineering workflow.
+- Demonstrated prototype evidence through photos, wiring notes, validation estimates, and clear limitations that separate measured data from photo-informed simulation.
+
 ## Why This Project Matters
 
 Footsteps contain short bursts of mechanical energy that are usually lost as vibration and heat. EcoStep investigates whether a low-cost piezoelectric tile can capture part of that energy, measure it repeatably, and estimate whether it could support small low-power electronics after rectification and storage.
@@ -166,6 +172,10 @@ Requires future physical confirmation:
 - repeat capacitor charging tests with known capacitors
 - repeat load-resistor tests with known resistors
 - repeat single PZT vs 16-element array comparison under controlled conditions
+
+## Real Data and Photo Next Step
+
+The strongest next portfolio upgrade is to add a controlled measurement package that replaces the current photo-informed estimates with real lab readings. The target evidence set is: prototype photos from the measurement session, raw oscilloscope or serial voltage-time data, known resistor/capacitor values, repeated step trials, regenerated graphs, and a short comparison between single-PZT and full-array output. The exact checklist is tracked in `docs/real_measurement_next_steps.md`.
 
 ## Limitations and Honesty Notes
 
