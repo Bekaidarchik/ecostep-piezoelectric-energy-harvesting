@@ -12,6 +12,36 @@ EcoStep is a real high-school engineering prototype that uses a 4 x 4 array of 1
 - Used Arduino-ready logging, Python analysis, CSV data templates, SVG diagrams, and hardware documentation to connect the physical prototype to a repeatable engineering workflow.
 - Demonstrated prototype evidence through photos, wiring notes, validation estimates, and clear limitations that separate measured data from photo-informed simulation.
 
+## Public Launch Materials
+
+- Outreach one-pager: `outreach/one_pager.md`
+- Sendable outreach PDF: `outreach/EcoStep_one_page_outreach_summary.pdf`
+- Almaty pilot tracker: `outreach/almaty_pilot_tracker.xlsx`
+- Email templates: `outreach/email_templates.md`
+- Static landing page concept: `site/index.html`
+- Pilot outreach plan: `docs/pilot_outreach_plan.md`
+
+## Current Project Inputs
+
+- Current working project lead: `Amangeldi Bekaidar`
+- Current rough prototype size assumption: `50 cm x 50 cm`
+- Current rough prototype cost assumption: about `$75` for one `50 cm x 50 cm` unit
+- Current remembered energy assumption: about `0.4 J per step`
+
+These items are treated as active project inputs, not verified laboratory results. The cost and energy values should be replaced by measured and sourced data when available.
+
+## Next Measurements Before Stronger Claims
+
+EcoStep's next public credibility milestone is to replace assumptions with measured data. Before using stronger language such as "verified energy per step", "powers a display", or "ready for installation", the project should add:
+
+- voltage-time logs from repeated step trials under known electrical load
+- capacitor charging tests with known capacitance and start/end voltage
+- single PZT vs 16-element array comparison under the same test setup
+- clear notes on step force, trial count, load resistance, wiring topology, and measurement equipment
+- regenerated graphs from real CSV data rather than photo-informed estimates
+
+Until those measurements are complete, EcoStep should be described as a **working prototype in validation stage** and a **pilot concept**, not a deployed product.
+
 ## Why This Project Matters
 
 Footsteps contain short bursts of mechanical energy that are usually lost as vibration and heat. EcoStep investigates whether a low-cost piezoelectric tile can capture part of that energy, measure it repeatably, and estimate whether it could support small low-power electronics after rectification and storage.
@@ -93,7 +123,7 @@ Honesty note: the battery holder means the visible LED/display system may be sep
 The remembered prototype-stage estimate is:
 
 ```text
-Preliminary remembered energy estimate: about 0.4 J
+Preliminary remembered energy estimate: about 0.4 J per step
 ```
 
 This is **not** treated as a final measured result. It is stored as a low-confidence preliminary estimate in `data/preliminary_estimate.csv`.

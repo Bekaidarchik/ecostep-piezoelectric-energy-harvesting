@@ -23,7 +23,7 @@ evidence_status = simulated_photo_informed
 - User-confirmed 16 PZT elements in a 4 x 4 array.
 - Photos showing multimeter and oscilloscope-like measurement setup.
 - One visible multimeter reading near `3.46`, treated only as an observed measurement attempt because the exact mode and circuit are not fully documented.
-- Remembered preliminary estimate of about `0.4 J`, treated separately as low-confidence memory, not final measured data.
+- Remembered preliminary estimate of about `0.4 J per step`, treated separately as low-confidence memory, not final measured data.
 
 ## Gap 1: Open-Circuit Voltage Trials
 
@@ -113,19 +113,19 @@ wiring_assumption = grouped_unknown
 
 The available photos show many wired PZT discs but do not prove the exact final series/parallel topology. This is now documented in `hardware/wiring_topology.md`.
 
-## Relationship to the 0.4 J Estimate
+## Relationship to the 0.4 J Per-Step Estimate
 
-The remembered 0.4 J estimate remains separate from this validation estimate package.
+The remembered 0.4 J per-step estimate remains separate from this validation estimate package.
 
-The capacitor estimates show that reaching 0.4 J would likely require either:
+The capacitor estimates show that reaching 0.4 J per step would likely require either:
 
 - many more steps,
 - a larger capacitor,
 - higher voltage,
 - a different load and rectification design,
-- or an interpretation of 0.4 J as an aggregate multi-step estimate.
+- or later testing that shows the remembered per-step value was based on a different load, circuit, or calculation method than the conservative placeholder models used here.
 
-The repository does not claim that 0.4 J has been experimentally verified.
+The repository does not claim that 0.4 J per step has been experimentally verified.
 
 ## Conclusion
 

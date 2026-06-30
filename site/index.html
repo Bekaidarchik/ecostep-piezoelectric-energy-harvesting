@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EcoStep - Footsteps Into Measurable Clean-Energy Signals</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav>
+        <span class="brand">EcoStep</span>
+        <a href="#evidence">Evidence</a>
+        <a href="#estimator">Estimator</a>
+        <a href="#pilot">Pilot vision</a>
+      </nav>
+      <section class="hero-grid">
+        <div>
+          <p class="eyebrow">Working prototype - validation stage</p>
+          <h1>Footsteps into measurable clean-energy signals.</h1>
+          <p class="lead">
+            EcoStep is a low-cost piezoelectric floor tile prototype from Almaty,
+            Kazakhstan, built to study small-scale energy recovery and public
+            climate-awareness installations.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="https://github.com/Bekaidarchik/ecostep-piezoelectric-energy-harvesting">View GitHub</a>
+            <a class="button ghost" href="mailto:nekaaman6@gmail.com?subject=EcoStep%20feedback">Contact for feedback</a>
+          </div>
+        </div>
+        <figure class="photo-card">
+          <img src="../hardware/prototype_photos/photo_1_2026-06-16_20-00-06.jpg" alt="EcoStep physical prototype" />
+          <figcaption>Physical EcoStep prototype with layered compression tile.</figcaption>
+        </figure>
+      </section>
+    </header>
+
+    <main>
+      <section class="section split">
+        <div>
+          <p class="eyebrow">How it works</p>
+          <h2>Simple physical workflow</h2>
+          <p>
+            Footstep force compresses the tile, stressing a 4 x 4 array of 16 PZT
+            piezoelectric elements. The resulting voltage pulse can be logged,
+            analyzed, rectified, or stored for small low-power applications.
+          </p>
+        </div>
+        <ol class="flow">
+          <li>Footstep force</li>
+          <li>Layered compression tile</li>
+          <li>16 PZT elements</li>
+          <li>Voltage pulse</li>
+          <li>Logging and analysis</li>
+        </ol>
+      </section>
+
+      <section id="evidence" class="section">
+        <p class="eyebrow">Evidence status</p>
+        <h2>Ambitious, but claim-safe</h2>
+        <div class="cards">
+          <article>
+            <h3>Prototype evidence</h3>
+            <p>Physical tile built and photographed, with visible PZT array, wiring, springs, bolts, and electronics module.</p>
+          </article>
+          <article>
+            <h3>Prepared tooling</h3>
+            <p>Arduino logging and Python analysis workflows are prepared for controlled validation tests.</p>
+          </article>
+          <article>
+            <h3>Still unverified</h3>
+            <p>The 0.4 J/step figure is a preliminary estimate until voltage-time tests under known load are completed.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="estimator" class="section estimator">
+        <div>
+          <p class="eyebrow">Assumption-based estimator</p>
+          <h2>Footstep energy estimator</h2>
+          <p>
+            This calculator uses assumptions only. It is for scenario thinking,
+            not measured EcoStep performance.
+          </p>
+        </div>
+        <form class="calculator" oninput="calculateEstimate()">
+          <label>
+            Steps per day
+            <input id="steps" type="number" value="1000" min="0" />
+          </label>
+          <label>
+            Assumed joules per step
+            <input id="joules" type="number" value="0.4" min="0" step="0.1" />
+          </label>
+          <label>
+            Number of tiles
+            <input id="tiles" type="number" value="1" min="1" />
+          </label>
+          <output id="estimate">400 J/day = 0.111 Wh/day</output>
+          <small>Warning: 0.4 J/step is unverified and must be replaced by measured data.</small>
+        </form>
+      </section>
+
+      <section id="pilot" class="section split">
+        <div>
+          <p class="eyebrow">Pilot vision</p>
+          <h2>Almaty feedback first, deployment later</h2>
+          <p>
+            EcoStep is preparing for conversations with schools, labs, public-space
+            operators, and Almaty Metro contacts. The first ask is feedback,
+            measurement support, or a controlled demonstration pathway.
+          </p>
+        </div>
+        <div class="claim-box">
+          <h3>Safe wording</h3>
+          <p>Working prototype, validation stage, pilot concept, controlled demo conversation.</p>
+          <h3>Avoid</h3>
+          <p>Confirmed partner, verified 0.4 J/step, deployed product, approved installation.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>EcoStep by Amangeldi Bekaidar</span>
+      <span><a href="mailto:nekaaman6@gmail.com">nekaaman6@gmail.com</a> · <a href="https://github.com/Bekaidarchik/ecostep-piezoelectric-energy-harvesting">GitHub</a></span>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

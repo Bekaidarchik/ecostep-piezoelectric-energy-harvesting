@@ -8,7 +8,7 @@ Evidence level:
 - Real repeatable voltage-time measurements are still needed for final claims.
 
 Preliminary estimate:
-- 0.4 J, labeled as a low-confidence remembered estimate.
+- 0.4 J per step, labeled as a low-confidence remembered estimate.
 
 Measured data rows:
 - Real measured rows detected: 0
